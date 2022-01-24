@@ -1,3 +1,10 @@
+############################
+### Date 2022 January 24 ###
+### Author Magneto       ###
+### Name BMI计算         <——>
+### Facility iPad        ###
+### Language Python      ###
+############################
 #欢迎界面
 print("Hello!Nice to meet you what's your name?")
 the_name = input()

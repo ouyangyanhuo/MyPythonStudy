@@ -27,9 +27,9 @@ if the_number < 18.5:
   print(f"Oh!{the_name}!You're underweight and BMI is below standerd.")
 elif 18.5 <= the_number <= 23.9:
   print(f"{the_name},your BMI is normal.")
-elif 24 <= the_number <= 27.9:
+elif 23.9 < the_number <= 27.9:
   print(f"{the_name},you're overweight and BMI is higher than the standard.")
-elif 28 <= the_number <= 32:
+elif 27.9 < the_number <= 32:
   print(f"{the_name},you're too fat and BMI well above the mark")
 else:
   print(f"{the_name},you're severely exeed the limit please lose weight")

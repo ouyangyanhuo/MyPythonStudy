@@ -40,7 +40,7 @@ while True:
         print("你选择了 Small Alien")
         if The_Random in state_one:
             print(f"恭喜你 \033[94m{Data['The_name']}\033[0m ，击杀成功，获得 1 分")
-            Data['The_marks'] = Data['The_marks'] + aliens_name_and_mark['Small Alien']
+            Data['The_marks'] += aliens_name_and_mark['Small Alien']
             print(f"当前总分：\033[35m{Data['The_marks']}\033[0m 分\n\n\n")
         else:
             print(f"很遗憾 \033[94m {Data['The_name']} \033[0m ,你尝试击杀 Small Alien 失败了，分数清零，退出游戏。")
@@ -51,7 +51,7 @@ while True:
         print("你选择了 A Alien")
         if The_Random in state_one:
             print(f"恭喜你 \033[94m{Data['The_name']}\033[0m ，击杀成功，获得 2 分")
-            Data['The_marks'] = Data['The_marks'] + aliens_name_and_mark['A Alien']
+            Data['The_marks'] += aliens_name_and_mark['A Alien']
             print(f"当前总分：\033[35m{Data['The_marks']}\033[0m 分\n\n\n")
         else:
             print(f"很遗憾 \033[94m{Data['The_name']}\033[0m ,你尝试击杀 A Alien 失败了，分数清零，退出游戏。")
@@ -62,7 +62,7 @@ while True:
         print("你选择了 Middle Alien")
         if The_Random in state_one:
             print(f"恭喜你 \033[94m {Data['The_name']} \033[0m ，击杀成功，获得 5 分")
-            Data['The_marks'] = Data['The_marks'] + aliens_name_and_mark['Middle Alien']
+            Data['The_marks'] += aliens_name_and_mark['Middle Alien']
             print(f"当前总分：\033[35m{Data['The_marks']}\033[0m 分\n\n\n")
         else:
             print(f"很遗憾 \033[94m{Data['The_name']}\033[0m ,你尝试击杀 Middle Alien 失败了，分数清零，退出游戏。")
@@ -73,7 +73,7 @@ while True:
         print("你选择了 Big Alien")
         if The_Random in state_one:
             print(f"恭喜你 \033[94m{Data['The_name']}\033[0m ，击杀成功，获得 10 分")
-            Data['The_marks'] = Data['The_marks'] + aliens_name_and_mark['Big Alien']
+            Data['The_marks'] += aliens_name_and_mark['Big Alien']
             print(f"当前总分：\033[35m{Data['The_marks']}\033[0m 分\n\n\n")
         else:
             print(f"很遗憾 \033[94m{Data['The_name']}\033[0m ,你尝试击杀 Big Alien 失败了，分数清零，退出游戏。")

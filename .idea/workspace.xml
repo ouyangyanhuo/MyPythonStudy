@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="107b6755-55c6-4269-9a67-ec829e9f3537" name="变更" comment="" />
+    <list default="true" id="107b6755-55c6-4269-9a67-ec829e9f3537" name="变更" comment=".idea">
+      <change afterPath="$PROJECT_DIR$/寻找内容并移动到新目录.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,7 +39,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="BMI计算" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="寻找内容并移动到新目录" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -38,7 +51,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BMI计算.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/寻找内容并移动到新目录.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -49,7 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BMI计算" />
+        <item itemvalue="Python.寻找内容并移动到新目录" />
       </list>
     </recent_temporary>
   </component>
@@ -62,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672105547517</updated>
     </task>
+    <task id="LOCAL-00001" summary=".idea">
+      <created>1672105848292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672105848292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
   </component>
 </project>

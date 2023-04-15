@@ -5,7 +5,10 @@
 ### Facility Windows 11  ###
 ### Language Python      ###
 ############################
-print('说明：本文件用于遍历指定目录下的指定文件类型，\n寻找该类型文件内是否有符合关键词的内容，\n并将内容含有该关键词的文件复制一份到另一目录')
+
+# 说明：本文件用于遍历指定目录下的指定文件类型，寻找该类型文件内是否有符合关键词的内容，并将内容含有该关键词的文件复制一份到另一目录
+# 本代码适用于 Windows 目录填写的形式不能为单斜杠而是双斜杠
+# 即 不能是 C:\Users\user\Desktop 而应该是 C:\\Users\\user\\Desktop
 import os
 import shutil
 
@@ -17,13 +20,13 @@ def find_files(directory, extension):
 
 def main():
     # 需要遍历的目录
-    directory = 'C:\\Users\magne\\Desktop\\websitelogs_2023'
+    directory = 'C:\\Users\\user\\Desktop'
     # 需要遍历的目录内文件类型
     extension = '.json'
     # 需要寻找的关键词
-    search_string = '/Theme/tina_update.json'
+    search_string = '指定内容'
     # 复制的文件保存位置
-    destination_directory = 'C:\\Users\\magne\\Desktop\\websitelogs_2024'
+    destination_directory = 'C:\\Users\\user\\Desktop'
 
     for file in find_files(directory, extension):
         with open(file) as f:
